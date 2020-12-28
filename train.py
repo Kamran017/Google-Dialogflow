@@ -28,9 +28,9 @@ def create_intent(project_id, display_name, training_phrases_parts,
  
 import pandas as pd
 
-project_id = "newagent-croe"
+project_id = "DIALOGFLOW PROJECT ID"
 
-excelFile = pd.read_excel (r"C:/Users/balay/OneDrive/Masaüstü/Train split.xlsx")
+excelFile = pd.read_excel (r"TRAIN FILE LOCATION")
 
 
 index=1#index value for excel
