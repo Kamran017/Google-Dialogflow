@@ -55,9 +55,9 @@ def detect_intent_texts(project_id, session_id, texts, language_code):
         
 import pandas as pd
 
-project_id = "newagent-croe"
+project_id = "DIALOGFLOW PROJECT ID"
 
-excelFile = pd.read_excel (r"C:/Users/balay/OneDrive/Masaüstü/dialogflow/testDatas.xlsx")
+excelFile = pd.read_excel (r"TEST FILE LOCATION")
 
 queries=[]
 counter=0
